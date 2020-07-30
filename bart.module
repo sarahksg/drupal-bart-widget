@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Module file for block_example.
+ */
+
+use Drupal\Core\Block\BlockPluginInterface;
+
+
+function bart_theme($existing, $type, $theme, $path) {
+  return [
+    'bart_edt' => [
+      'variables' => ['items' => NULL, 'data' => NULL, 'station' => NULL,'number_routes'=> NULL],  // Declare all variables that you want to be able to pass to this template
+    ],
+  ];
+}
+

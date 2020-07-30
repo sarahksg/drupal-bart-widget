@@ -1,0 +1,6 @@
+name: BART API module
+type: module
+description: Get data from the BART API for Drupal usage
+package: custom
+core: 8.x
+core_version_requirement: ^8 || ^9

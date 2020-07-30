@@ -1,0 +1,5 @@
+services:
+  bart_client:
+    class: Drupal\bart\BartClient
+    arguments:
+      - '@http_client_factory'

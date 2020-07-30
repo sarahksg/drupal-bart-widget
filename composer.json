@@ -1,0 +1,14 @@
+{
+    "name": "drupal/bart",
+    "description": "The BART module uses the BART API to get schedule information",
+    "type": "drupal-module",
+
+    "authors": [
+        {
+            "name": "Sarah Stapleton-Gray",
+            "role": "Maintainer"
+        }
+    ]
+
+}
+

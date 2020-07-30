@@ -1,0 +1,122 @@
+<select id="edit-stations" name="stations" class="form-select"><option value="12TH" selected="selected">
+
+12th St. Oakland City Center</option><option value="16TH">16th St. Mission (SF)</option>
+<option value="19TH">19th St. Oakland</option><option value="24TH">24th St. Mission (SF)</option>
+<option value="ANTC">Antioch</option><option value="ASHB">Ashby (Berkeley)</option>
+
+
+$form['station'] = [
+  '#type' => 'select',
+  '#title' => $this
+    ->t('Select element'),
+  '#options' => [
+    '12TH' => $this
+      ->t('12th St. Oakland City Center'),
+    '16TH' => $this
+      ->t('16th St. Mission (SF)'),
+    '19TH' => $this
+      ->t('19th St. Oakland'),
+    '24TH' => $this
+      ->t('24th St. Mission (SF)'),
+    'ANTC' => $this
+      ->t('Antioch'),
+    'ASHB' => $this
+      ->t('Ashby (Berkeley)'),
+    'BALB' => $this
+      ->t('Balboa Park (SF)'),
+    'BAYF' => $this
+      ->t('Bay Fair (San Leandro)'),
+    'BERY' => $this
+      ->t('Berryessa/North San José'),
+    'CAST' => $this
+      ->t('Castro Valley'),
+    'CIVC' => $this
+      ->t('Civic Center / UN Plaza'),
+    'COLS' => $this
+      ->t('Coliseum'),
+    'COLM' => $this
+      ->t('Colma'),
+    'CONC' => $this
+      ->t('Concord'),
+    'DALY' => $this
+      ->t('Daly City'),
+    'DBRK' => $this
+      ->t('Downtown Berkeley'),
+    'DUBL' => $this
+      ->t('Dublin / Pleasanton'),
+    'DELN' => $this
+      ->t('El Cerrito del Norte'),
+    'PLZA' => $this
+      ->t('El Cerrito Plaza'),
+    'EMBR' => $this
+      ->t('Embarcadero (SF)'),
+    'FRMT' => $this
+      ->t('Fremont'),
+    'FTVL' => $this
+      ->t('Fruitvale (Oakland)'),
+    'GLEN' => $this
+      ->t('Glen Park (SF)'),
+    'HAYW' => $this
+      ->t('Hayward'),
+    'LAFY' => $this
+      ->t('Lafayette'),
+    'LAKE' => $this
+      ->t('Lake Merritt (Oakland)'),
+    'MCAR' => $this
+      ->t('MacArthur (Oakland)'),
+    'MLBR' => $this
+      ->t('Millbrae'),
+    'MLPT' => $this
+      ->t('Milpitas'),
+    'MONT' => $this
+      ->t('Montgomery St. (SF)'),
+    'MLPT' => $this
+      ->t('Milpitas'),
+    'NBRK' => $this
+      ->t('North Berkeley'),
+    'NCON' => $this
+      ->t('North Concord / Martinez'),
+    'OAKL' => $this
+      ->t('Oakland International Airport'),
+    'ORIN' => $this
+      ->t('Orinda'),
+    'PITT' => $this
+      ->t('Pittsburg / Bay Point'),
+    'PCTR' => $this
+      ->t('Pittsburg Center'),
+    'PHIL' => $this
+      ->t('Pleasant Hill / Contra Costa Centre'),
+    'POWL' => $this
+      ->t('Powell St. (SF)'),
+    'RICH' => $this
+      ->t('Richmond'),
+    'ROCK' => $this
+      ->t('Rockridge (Oakland)'),
+    'SBRN' => $this
+      ->t('San Bruno'),
+    'SFIA' => $this
+      ->t('San Francisco International Airport'),
+    'SANL' => $this
+      ->t('San Leandro'),
+    'SHAY' => $this
+      ->t('South Hayward'),
+    'SSAN' => $this
+      ->t('South San Francisco'),
+    'UCTY' => $this
+      ->t('Union City'),
+    'WCRK' => $this
+      ->t('Walnut Creek'),
+    'WARM' => $this
+      ->t('Warm Springs / South Fremont'),
+    'WDUB' => $this
+      ->t('West Dublin / Pleasanton'),
+    'WOAK' => $this
+      ->t('West Oakland'),
+
+  ],
+];
+
+
+<option value="SHAY">South Hayward</option><option value="SSAN">South San Francisco</option><option value="UCTY">Union City</option>
+<option value="WCRK">Walnut Creek</option><option value="WARM">Warm Springs / South Fremont</option>
+<option value="WDUB">West Dublin / Pleasanton</option><option value="WOAK">West Oakland</option></select>

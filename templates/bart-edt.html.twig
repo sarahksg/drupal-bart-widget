@@ -1,0 +1,19 @@
+<div class="container">
+    <img src="https://www.bart.gov/sites/all/themes/bart/logo.svg" alt="BART logo" style="float:left" width="100px"/>
+
+    <h1> Schedule for {{station}} </h1>
+    <div style="clear:all"></div>
+
+    <p>There are {{number_routes}} trips from {{ station }}.</p>
+
+    {% for item in items %}
+        <div> {{ item.origTime}} originates at {{ item.trainHeadStation }} 
+            {% if item.bikeflag == 1 %}
+                and bicycles are allowed <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Map_icons_by_Scott_de_Jonge_-_bicycle-store.svg" width="16" alt="bicycle logo" title="bicycles allowed"/>
+            {% endif %}
+
+        </div>
+
+    {% endfor %}
+</div>
+</div>
